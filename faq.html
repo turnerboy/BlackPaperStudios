@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="/Users/Opus/Desktop/KAP/backend-web/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="shorcut icon" href="/Users/Opus/Desktop/BlackPaperStudios/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Fader/css/jquery.fadeshow-0.1.1.min.css" />
+    <title>Black Paper Studios</title>
+  </head>
+  <body>
+    <audio controls autoplay loop class='audio' id='volume'>
+      <source src="audio.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+      var audio = document.getElementById("volume");
+      audio.volume = 0.1;
+      </script>
+
+    <div class="navbar">
+      <div class="navbar-brand">
+           <a href="index.html"><img src="favicon.png" alt=""></a>
+      </div>
+      <div class="navbar-item navbar-end is-active"><a href="about.html"><i class="fa fa-coffee" aria-hidden="true"> </i> ABOUT</a>
+      </div>
+      <div class="navbar-item navbar-end"><a href="works.html"><i class="fa fa-cogs" aria-hidden="true"> </i> WORKS</a>
+      </div>
+      <div class="navbar-item navbar-end"><a href="faq.html"><i class="fa fa-comments-o" aria-hidden="true"> </i> FAQ</a>
+      </div>
+      <div class="navbar-item navbar-end" id="last"><a href="contact.html"><i class="fa fa-mobile" aria-hidden="true"> </i> CONTACT US</a>
+      </div>
+    </div>
+  </body>
+</html>

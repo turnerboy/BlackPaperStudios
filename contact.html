@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="/Users/Opus/Desktop/KAP/backend-web/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="shorcut icon" href="/Users/Opus/Desktop/BlackPaperStudios/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Fader/css/jquery.fadeshow-0.1.1.min.css" />
+    <title>Black Paper Studios</title>
+  </head>
+  <body>
+    <audio controls autoplay loop class='audio' id='volume'>
+      <source src="audio.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+      var audio = document.getElementById("volume");
+      audio.volume = 0.1;
+      </script>
+
+    <div class="navbar">
+      <div class="navbar-brand">
+           <a href="index.html"><img src="favicon.png" alt=""></a>
+      </div>
+      <div class="navbar-item navbar-end is-active"><a href="about.html"><i class="fa fa-coffee" aria-hidden="true"> </i> ABOUT</a>
+      </div>
+      <div class="navbar-item navbar-end"><a href="works.html"><i class="fa fa-cogs" aria-hidden="true"> </i> WORKS</a>
+      </div>
+      <div class="navbar-item navbar-end"><a href="faq.html"><i class="fa fa-comments-o" aria-hidden="true"> </i> FAQ</a>
+      </div>
+      <div class="navbar-item navbar-end" id="last"><a href="contact.html"><i class="fa fa-mobile" aria-hidden="true"> </i> CONTACT US</a>
+      </div>
+    </div>
+    <div class="plain">
+
+    </div>
+<div class="column is-half" id="contact">
+    <div class="field">
+  <label class="label">Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Text input">
+  </div>
+</div>
+<div class="field">
+  <label class="label">Email</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+    <span class="icon is-small is-left">
+      <i class="fa fa-envelope"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fa fa-warning"></i>
+    </span>
+  </div>
+  <p class="help is-danger">This email is invalid</p>
+</div>
+
+<div class="field">
+  <label class="label">Message</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Textarea"></textarea>
+  </div>
+</div>
+
+<div class="field">
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox">
+        Have you seen our <i class="fa fa-code" aria-hidden="true"></i> ?
+    </label>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label"><i class="fa fa-heart" aria-hidden="true"></i> us?<br></label>
+  <div class="control">
+    <label class="radio">
+      <input type="radio" name="question">
+        Yes
+      </label>
+      <label class="radio">
+        <input type="radio" name="question">
+        No
+      </label>
+    </div>
+  </div>
+
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-primary">Submit</button>
+    </div>
+    <div class="control">
+      <button class="button is-link">Cancel</button>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>BlackPaperStudios</strong> <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://jgthms.com">TEAM</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/jgthms/bulma">
+      <i class="fa fa-github"></i>
+    </a>
+  </p>
+</div>
+</div>
+</footer>
+  </body>
+</html>
